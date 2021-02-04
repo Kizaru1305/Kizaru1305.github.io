@@ -338,3 +338,8 @@ a.navbar-brand {
   width: 10%;
   height: 10%;
 }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}

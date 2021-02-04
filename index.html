@@ -61,7 +61,7 @@
         <h1>Technology</h1>
         <div class="row justify-content-center">
 
-            <div class="col-md-4">
+            <div class="col-sm-4">
                 <div class="card">
                     <img src="images/front-end2.png">
                     <h5>Front-End</h5>
@@ -72,7 +72,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-sm-4">
                 <div class="card">
                     <img src="images/back-end.png">
                     <h5>Back-End</h5>
@@ -81,7 +81,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-sm-4">
                 <div class="card">
                     <img src="images/server.png">
                     <h5>Database</h5>
@@ -113,9 +113,8 @@
     <section id="projects">
         <h1>Projects</h1>
 
-
-        <div class="row">
-            <div class="col-md-4">
+        <div class="row d-flex align-items-start ">
+            <div class="col-sm-4 d-flex flex-wrap">
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front1">
@@ -146,11 +145,11 @@
                     </div>
                   </div>
                 </div>
-              </div>
+            </div>
         
 
 
-            <div class="col-md-4">
+            <div class="col-sm-4 d-flex flex-wrap">
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front2">
@@ -181,11 +180,11 @@
                     </div>
                   </div>
                 </div>
-              </div>
+            </div>
 
 
 
-            <div class="col-md-4">
+            <div class="col-sm-4 d-flex flex-wrap">
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front3">
@@ -217,12 +216,14 @@
                     </div>
                   </div>
                 </div>
-              </div>
+            </div>
 
 
+        </div>
+            <!-- second row -->
 
-
-            <div class="col-md-4">
+        <div class="row d-flex justify-content-start">  
+            <div class="col-sm-4 d-flex flex-wrap">
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front4">
@@ -232,64 +233,64 @@
                         <div class="flip-card-back">
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal4">
                                 View Example
-                              </button>
+                                </button>
                         </div>
                     </div>
                 </div>
             </div>
 
 
-        <div class="modal fade" id="Modal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg">
-              <div class="modal-content">
-                <div class="modal-body">
-                    <img class="img-fluid" src="images/webapi.png" >
-                    <hr>
-                  <p>This project was just a test to learn and see how RESTful http requests works using Postman and .Net</p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front5">
-                        <h1>Shipping Label Generator</h1>
-                        <p>C#</p>
+            <div class="modal fade" id="Modal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                    <div class="modal-body">
+                        <img class="img-fluid" src="images/webapi.png" >
+                        <hr>
+                        <p>This project was just a test to learn and see how RESTful http requests works using Postman and .Net</p>
                     </div>
-                    <div class="flip-card-back">
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal5">
-                            View Example
-                          </button>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-
-    <div class="modal fade" id="Modal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg">
-          <div class="modal-content">
-            <div class="modal-body">
-                <img class="img-fluid" src="images/label.gif">
-                <hr>
-                <p>Project that generates label to ship packages using easypost API.</p>
+            <div class="col-sm-4 d-flex flex-wrap">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front5">
+                            <h1>Shipping Label Generator</h1>
+                            <p>C#</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal5">
+                                View Example
+                                </button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
 
+
+            <div class="modal fade" id="Modal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                    <div class="modal-body">
+                        <img class="img-fluid" src="images/label.gif">
+                        <hr>
+                        <p>Project that generates label to ship packages using easypost API.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
           
     <!--card row end-->
-    </div>
-    
         
     </section>
 
