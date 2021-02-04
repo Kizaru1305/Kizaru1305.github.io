@@ -343,3 +343,13 @@ a.navbar-brand {
   display: flex;
   flex-wrap: wrap;
 }
+
+
+
+/** mobile**/
+
+@media screen and (max-width:768px){
+  h1{
+     font-size:3em;
+  }    
+}
